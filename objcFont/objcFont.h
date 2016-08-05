@@ -16,4 +16,4 @@ FOUNDATION_EXPORT const unsigned char objcFontVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <objcFont/PublicHeader.h>
 
-
+#import <objcFont/UIFont+VDSize.h>

@@ -7,9 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FE6405631D5473F500652BAC /* objcFont.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6405621D5473F500652BAC /* objcFont.h */; };
+		FE6405631D5473F500652BAC /* objcFont.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6405621D5473F500652BAC /* objcFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FE64056A1D5473F500652BAC /* objcFont.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE64055F1D5473F500652BAC /* objcFont.framework */; };
 		FE64056F1D5473F500652BAC /* objcFontTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE64056E1D5473F500652BAC /* objcFontTests.m */; };
+		FE64057C1D54741200652BAC /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = FE6405791D54741200652BAC /* Cartfile */; };
+		FE64057D1D54741200652BAC /* objcFont.podspec in Resources */ = {isa = PBXBuildFile; fileRef = FE64057A1D54741200652BAC /* objcFont.podspec */; };
+		FE6405811D54743600652BAC /* UIFont+VDSize.h in Headers */ = {isa = PBXBuildFile; fileRef = FE64057F1D54743600652BAC /* UIFont+VDSize.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE6405821D54743600652BAC /* UIFont+VDSize.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6405801D54743600652BAC /* UIFont+VDSize.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +33,11 @@
 		FE6405691D5473F500652BAC /* objcFontTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = objcFontTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE64056E1D5473F500652BAC /* objcFontTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = objcFontTests.m; sourceTree = "<group>"; };
 		FE6405701D5473F500652BAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE6405791D54741200652BAC /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		FE64057A1D54741200652BAC /* objcFont.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = objcFont.podspec; sourceTree = "<group>"; };
+		FE64057B1D54741200652BAC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FE64057F1D54743600652BAC /* UIFont+VDSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+VDSize.h"; sourceTree = "<group>"; };
+		FE6405801D54743600652BAC /* UIFont+VDSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+VDSize.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +65,9 @@
 				FE6405611D5473F500652BAC /* objcFont */,
 				FE64056D1D5473F500652BAC /* objcFontTests */,
 				FE6405601D5473F500652BAC /* Products */,
+				FE6405791D54741200652BAC /* Cartfile */,
+				FE64057A1D54741200652BAC /* objcFont.podspec */,
+				FE64057B1D54741200652BAC /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,6 +85,8 @@
 			children = (
 				FE6405621D5473F500652BAC /* objcFont.h */,
 				FE6405641D5473F500652BAC /* Info.plist */,
+				FE64057F1D54743600652BAC /* UIFont+VDSize.h */,
+				FE6405801D54743600652BAC /* UIFont+VDSize.m */,
 			);
 			path = objcFont;
 			sourceTree = "<group>";
@@ -93,6 +107,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE6405811D54743600652BAC /* UIFont+VDSize.h in Headers */,
 				FE6405631D5473F500652BAC /* objcFont.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -178,6 +193,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE64057D1D54741200652BAC /* objcFont.podspec in Resources */,
+				FE64057C1D54741200652BAC /* Cartfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE6405821D54743600652BAC /* UIFont+VDSize.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
